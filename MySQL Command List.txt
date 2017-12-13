@@ -1,0 +1,5 @@
+insert into tbuser VALUES('USR01','almahlpp','141191')
+
+SELECT * FROM `tbuser` order by idUser DESC
+
+update tbuser SET Username='Almah L P P' where idUser='USR01'
